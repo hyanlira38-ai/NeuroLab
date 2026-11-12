@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="NeuroLab — Experiência interativa sobre neurociência e aprendizagem.">
+
+  <title>NeuroLab | Ciência da Aprendizagem</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="brand">
+      <span class="brand-icon">N</span>
+      <span>NEUROLAB</span>
+    </a>
+
+    <nav>
+      <a href="#experimento">Experimento</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+
+    <span class="status">
+      <span class="status-dot"></span>
+      Sistema online
+    </span>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">NEUROCIÊNCIA · APRENDIZAGEM · MEMÓRIA</span>
+
+        <h1>Seu cérebro é capaz de <span>mais do que você imagina.</span></h1>
+
+        <p>
+          Descubra como diferentes métodos de estudo influenciam
+          a aprendizagem através de um experimento científico.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#experimento" class="btn-primary">Participar do experimento ↗</a>
+          <a href="#resultados" class="btn-secondary">Ver resultados</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="brain-orbit orbit-one"></div>
+        <div class="brain-orbit orbit-two"></div>
+        <div class="brain-symbol">Ψ</div>
+        <span class="visual-label">ESTUDE · TESTE · DESCUBRA</span>
+      </div>
+    </section>
+
+    <section class="stats" id="resultados">
+      <div class="section-heading">
+        <span class="eyebrow">DADOS DO EXPERIMENTO</span>
+        <h2>O que os dados revelam?</h2>
+        <p>Indicadores coletivos dos participantes registrados.</p>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span>Participantes</span>
+          <strong id="total-participantes">—</strong>
+          <small>Total registrado</small>
+        </article>
+
+        <article class="stat-card">
+          <span>Média — Releitura</span>
+          <strong id="media-releitura">—</strong>
+          <small>Desempenho médio</small>
+        </article>
+
+        <article class="stat-card">
+          <span>Média — Recuperação</span>
+          <strong id="media-recuperacao">—</strong>
+          <small>Desempenho médio</small>
+        </article>
+
+        <article class="stat-card">
+          <span>Melhor desempenho</span>
+          <strong id="melhor-desempenho">—</strong>
+          <small>Resultado observado</small>
+        </article>
+      </div>
+
+      <p class="update-info">
+        <span class="status-dot"></span>
+        Atualização automática a cada 10 segundos
+      </p>
+    </section>
+
+    <section class="experiment" id="experimento">
+      <div class="section-heading">
+        <span class="eyebrow">SUA PARTICIPAÇÃO</span>
+        <h2>Faça parte da experiência.</h2>
+        <p>Os resultados serão registrados para análise científica coletiva.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="experiment-intro">
+          <span class="experiment-number">01 / PARTICIPANTE</span>
+          <h3>Identificação</h3>
+          <p>Informe seu código de participante para iniciar o registro.</p>
+        </div>
+
+        <form id="participant-form">
+          <label for="participant-code">Código do participante</label>
+          <input
+            type="text"
+            id="participant-code"
+            placeholder="Ex.: NL001"
+            required
+            maxlength="20"
+          >
+
+          <button type="submit" class="btn-primary">
+            Continuar →
+          </button>
+
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <span class="eyebrow">SOBRE O PROJETO</span>
+      <h2>Aprender também é compreender como aprendemos.</h2>
+      <p>
+        O NeuroLab investiga processos cognitivos relacionados à
+        aprendizagem e à memória, utilizando experimentação,
+        observação e análise de dados.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="#" class="brand">
+      <span class="brand-icon">N</span>
+      <span>NEUROLAB</span>
+    </a>
+    <span>Ciência, conhecimento e descoberta.</span>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
