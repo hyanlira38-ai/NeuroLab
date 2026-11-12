@@ -1,5 +1,5 @@
 
-const API_URL = "https://script.google.com/macros/s/AKfycbynuwPD0tytEv2duLFRMOCo_yeoDHLbeOW3qv2b3h9dqJY8Z7AGemniLJjaQgK3XF3MEg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbzbpZyAdb5_YfuU_EYb0YzU7La1__K1aBi8lZfbth7UY2vpdXNqldbGEIJLs9WY6gB9pg/exec";
 
 const elementos = {
   total: document.getElementById("total-participantes"),
